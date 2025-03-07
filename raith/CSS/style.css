@@ -1,0 +1,106 @@
+* {
+    padding-right: 50px;
+    padding-right: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    ;
+    font-style: oblique;
+    font-variant: initial;
+    font-weight: 800;
+    font-size: 20px;
+}
+h1 {
+    color: blue;
+    text-shadow: 2px 2px 5px red;
+}
+
+/* h3 styling  */
+h3 {
+    color: red;
+}
+
+p {
+    background-color: cyan;
+    color: black;
+}
+
+h4,
+h5 {
+    text-align: center;
+}
+
+p {
+    color: black;
+    overflow-wrap: break-word;
+}
+
+.note {
+    color: forestgreen;
+}
+
+#p-note {
+    color: darkmagenta;
+}
+
+.block-text {
+    border-style: dashed;
+    border-width: 5px;
+    color: black;
+    border-color: blueviolet;
+    letter-spacing: 5px;
+}
+
+.margin-text {
+    margin-top: 100px;
+    margin-bottom: 80px;
+    margin-left: 50px;
+    margin-right: 50px;
+    word-spacing: 7px;
+    text-indent: 50px;
+    text-decoration: line-through;
+    text-transform: capitalize;
+    white-space: wrap
+}
+/* short-handed method  */
+.short-text {
+    margin: opx 20px 80px 20px;
+}
+/* padding */
+.p-text {
+    border-style: double;
+    border-width: 5px;
+    padding-top: 50px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 50px;
+    line-height: 3;
+}
+img {
+    margin-top: 50px;
+    margin-right: 90px;
+    margin-bottom: 50px;
+    margin-left: 90px;
+}
+
+button {
+    padding: 25px 50px 25px 30px;
+    background-color: blue;
+    color: white;
+    margin: 20px 25px 20px 80px;
+
+}
+a:hover {
+    color: aqua;
+}
+
+ol {
+    list-style-type: lower-roman;
+}
+ul {
+    list-style-type: square;
+}
+.hover-button {
+    background-color: blueviolet;
+}
+.hover-button:hover {
+    background-color: black;
+}

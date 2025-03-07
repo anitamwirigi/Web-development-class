@@ -1,0 +1,16 @@
+div.text-1 h1 {
+    background-color:blueviolet;
+}
+div.text-1 p {
+    background-color: aqua;
+}
+
+div.text-2 > p {
+    background-color: blue;
+}
+div.text-3 + p {
+    background-color: blueviolet;
+}
+div.text-4 ~ p {
+    background-color: aqua;
+}

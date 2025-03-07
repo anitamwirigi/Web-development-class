@@ -1,0 +1,103 @@
+div.flex-container{
+    display: flex;
+    background-color: blueviolet;
+}
+div > div {
+    border: 2px solid red;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+
+}
+.container-row {
+    display: flex;
+    flex-direction: row;
+    background-color: blue;
+}
+div.container-column {
+    flex-direction: column;
+    display: flex;
+    background-color: brown;
+}
+div.container-row-reverse {
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: darkblue;
+}
+div.container-column-reverse {
+    display: flex;
+    flex-direction: column-reverse;
+    background-color: deepskyblue;
+}
+ 
+/* FLEX-WRAP PROPERTY */
+.container-wrap {
+    background-color: darkslateblue;
+    display: flex;
+    flex-wrap: wrap;
+}
+.wrap-reverse {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    background-color: darkturquoise;
+}
+.flex-flow {
+    display: flex;
+    flex-flow: row wrap;
+    background-color: gray;
+}
+.justify-centre {
+    display: flex;
+    justify-content: center;
+    background-color: chartreuse;
+}
+.flex-start {
+    display: flex;
+    justify-content: flex-start;
+    background-color: cyan;
+}
+.flex-end {
+    display: flex;
+    justify-content: flex-end;
+    background-color: deepskyblue;
+}
+.space-around {
+    display: flex;
+    justify-content: space-around;
+    background-color: blueviolet;
+}
+.space-between {
+    display: flex;
+    justify-content: space-between;
+    background-color: darkolivegreen;
+}
+.space-evenly {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: dodgerblue;
+}
+.order {
+    display: flex;
+    background-color: mediumpurple;
+}
+.grow {
+    display: flex;
+    background-color: darkcyan;
+}
+.shrink {
+    display: flex;
+    background-color: darkturquoise;
+}
+.shrink > div {
+    width: 100px;
+}
+.basis {
+    display: flex;
+    background-color: cadetblue;
+}
+.self-align {
+    display: flex;
+    background-color: lightskyblue;
+    height: 300px;
+
+}
