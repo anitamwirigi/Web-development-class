@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Layout</title>
+  </head>
+  <body>
+    <div>
+      <h1>Inline-block Element</h1>
+      <div
+        style="
+          display: inline-block;
+          width: 150px;
+          height: 50px;
+          background-color: lightcoral;
+        "
+      >
+        Inline-block Element 1
+      </div>
+      <div
+        style="
+          display: inline-block;
+          width: 150px;
+          height: 50px;
+          background-color: lightgoldenrodyellow;
+        "
+      >
+        Inline-block Element 2
+      </div>
+    </div>
+    <div>
+      <h1>Inline Element</h1>
+      <span style="display: inline; background-color: lightblue"
+        >Inline Element 1</span
+      >
+      <span style="display: inline; background-color: lightgreen"
+        >Inline Element 2</span
+      >
+    </div>
+    <div>
+      <h1>Block Element</h1>
+      <div style="display: block; background-color: lightpink; padding: 10px">
+        Block Element 1
+      </div>
+      <div style="display: block; background-color: lightblue; padding: 10px">
+        Block Element 2
+      </div>
+    </div>
+    <!-- FLOATING ELEMENTS -->
+    <div>
+      <h1>Floated Elements Overlapping</h1>
+      <div
+        style="
+          float: left;
+          width: 100px;
+          height: 100px;
+          background-color: lightblue;
+        "
+      >
+        Floating Box
+      </div>
+      <p>This text wraps around the floated box.</p>
+    </div>
+    <div>
+      <div
+        style="
+          float: left;
+          width: 100px;
+          height: 100px;
+          background-color: lightblue;
+        "
+      >
+        Floating Box
+      </div>
+      <p style="clear: left">This text moves below the floated box.</p>
+    </div>
+    <div>
+      <h1>Prevent Overlapping</h1>
+      <div
+        style="
+          float: left;
+          width: 100px;
+          height: 100px;
+          background-color: lightblue;
+        "
+      >
+        Floating Box
+      </div>
+      <p style="clear: left">This text moves below the floated box.</p>
+    </div>
+    <h1>Clearing Both Sides</h1>
+    <div
+      style="
+        float: left;
+        width: 100px;
+        height: 100px;
+        background-color: lightblue;
+      "
+    >
+      Left Floating Box
+    </div>
+    <div
+      style="
+        float: right;
+        width: 100px;
+        height: 100px;
+        background-color: lightcoral;
+      "
+    >
+      Right Floating Box
+    </div>
+    <p style="clear: both">This text is forced below both floating elements.</p>
+  </body>
+</html>

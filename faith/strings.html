@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1 id="display"></h1>
+    <script>
+      let text = "anita web design";
+      console.log(text.length);
+      console.log(text.toUpperCase);
+      console.log(text.toLowerCase);
+      console.log(text.slice(0, 5));
+      console.log(text.slice(-7));
+      console.log(text.replace("anita", "mwirigi"));
+      let sentence = " i am learning javascript,javascript is fun";
+      console.log(sentence.replaceAll("javascript", "php"));
+      console.log(sentence.trim());
+      let quote = "i am a developer";
+      console.log(quote.repeat(3));
+      let colors = "red,blue,pink,yellow";
+      let split = colors.split(":");
+      console.log(split);
+      let first = "web";
+      let second = "design";
+      console.log(first + " " + second);
+      let data = "html,css";
+      console.log(data.indexOf("design"));
+      let myName = "anita";
+      let message = `hello, ${myName}`;
+      console.log(message);
+      let lines = `this is line one
+      this is line two
+      tis is line three`;
+      console.log(lines);
+      let a = 5,
+        b = 10;
+      console.log(`the sum of ${a} and ${b}= ${a + b}`);
+      let username = "anita";
+      let age = 25;
+      let course = "web design";
+      let myCard = `<div>
+        <h1>
+        ${username}</h1>
+        <p>age: ${age}</p>
+        <P>${course}</p>
+        </div>`;
+      console.log(myCard);
+      let laptops = ["lenovo", "dell", "hp"];
+      console.log(laptops);
+      const subjects = [];
+      subjects[0] = "Math";
+      subjects[1] = "Eng";
+      subjects[2] = "Kisw";
+      console.log(subjects);
+      let laptop = laptops[0];
+      console.log(laptop);
+      subjects[1] = "Bs";
+      console.log(subjects);
+      let string = subjects.toString();
+      console.log(string);
+      document.getElementById("display").innerHTML = subjects;
+      console.log(subjects.length);
+      subjects.push("French");
+      console.log(subjects);
+      console.log(subjects.pop());
+      let person = {
+        firstName: "Anita",
+        secondName: "Mwirigi",
+        greet: function () {
+          console.log("welcome" + this.firstName);
+        },
+      };
+      let pupil = {
+        name: "Hannah",
+        age: 21,
+      };
+      console.log(pupil.name);
+      console.log(pupil.age);
+      let sub = {
+        "school name": "inceptor institute",
+      };
+      console.log(sub["school name"]);
+      let fruits = {
+        fruitName: "mango",
+        color: "red",
+      };
+      fruits.color = "yellow";
+      console.log(fruits.color);
+    </script>
+  </body>
+</html>

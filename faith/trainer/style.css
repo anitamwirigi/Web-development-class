@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600;700;900&display=swap');
+
+* {
+    box-sizing: border-box;
+    color: black;
+}
+ul {
+    text-decoration: dotted;
+}
+
+ul li:nth-child(3),
+ul li:nth-child(4),
+ul li:nth-child(5) {
+    color: limegreen;
+}
+
+li:first-child {
+    color: #FF4500;
+}
+li:last-child {
+    color: #2e7fdb;
+}
+li:nth-child(2) {
+    color: #2e7fdb;
+}
+.body-text {
+    background-color: #FFA07A;
+    padding: 50px;
+}
+.p-text p {
+    color: #FF4500;
+}
+p:not(.body-text){
+    color: black;
+}
+a:hover,
+a:focus {
+    background-color: limegreen;
+    font-size: 18px;
+}
+.p-text a {
+    color: black;
+}
+.descendant {
+    border: 3px solid lime;
+}
+
+.descendant > p {
+    color: blue;
+}
+
+::selection {
+    background: orange;
+    color: black;
+}
+
+li::marker {
+    color: limegreen;
+}
+
+table.one
+{border-collapse:collapse;}
+
+table.two
+{border-collapse:separate;}
+
+
+/* The order-collapse Property */
+
+td.a
+{
+border-style:dotted;
+border-width:3px;
+border-color:#000000;
+padding: 10px;
+}
+
+td.b
+{
+border-style:solid;
+border-width:3px;
+border-color:#333333;
+padding:10px;
+}
+
+/* The border-spacing Property */
+
+table.one
+{
+border-collapse:separate; width:400px;
+border-spacing:10px;
+}
+
+table.two
+{
+border-collapse:separate; width:400px;
+border-spacing:10px 50px;
+} 
+
+/* The empty-cells Property */
+
+table.empty
+{
+width:350px;
+border-collapse:separate;
+empty-cells:hide;
+}
+
+td.empty
+{
+padding:5px;
+border-style:solid;
+border-width:1px;
+border-color:#999999;} 

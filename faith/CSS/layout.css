@@ -1,0 +1,86 @@
+/* RELATIVE POSITIONING */
+p.relative {
+    border: 3px dotted blueviolet;
+    position: relative;
+    left: 45px;
+}
+
+/* FIXED POSITIONING */
+p.fixed {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+    border: 4px double black;
+}
+
+/* ABSOLUTE POSITIONING */
+div.relative {
+    position: relative;
+    width: 400px;
+    height: 200px;
+    border: 3px solid blue;
+}
+div.absolute {
+    position: absolute;
+    top: 80px;
+    left: 0;
+    width: 200px;
+    height: 110px;
+    border: 3px solid blue;
+}
+
+/* STICKY POSITIONING */
+p.sticky {
+    position: sticky;
+    top: 0;
+    background-color: blueviolet;
+    color: white;
+}
+
+/* Z-INDEX PROPERTY */
+.z-index {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+    height: 500px;
+    width: 400px;
+}
+
+/* FLOATING BOXES */
+div.blue-box {
+    position: relative;
+    z-index: 3;
+    background-color: blue;
+    width: 300px;
+    height: 300px;
+
+}
+div.red-box {
+    z-index: 2;
+    position: absolute;
+    background-color: red;
+    width: 300px;
+    margin: 30px;
+    left: 50px;
+    top: 50px;
+    height: 300px;
+   
+}
+div.blueviolet-box {
+    position: absolute;
+    z-index: 1;
+    background-color: blueviolet;
+    width: 300px;
+    height: 300px;
+    top: -20px;
+    left: 200px;
+    }
+div.container-z {
+    position: relative;
+}
+/* OVERFLOW PROPERTY */
+div { overflow: hidden; height: 200px; width: 200px;}
+div { overflow: scroll; height: 200px; width: 200px;}
+div {overflow: auto; height: 200px; width: 200px;}

@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+}
+.vertical {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: 25%;
+    background-color:blueviolet ;
+    border: 1px solid black;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+.vertical li a {
+    display: block;
+    padding: 8px 16px;
+    text-decoration: none;
+    text-align: center;
+}
+li a:hover:not(.active) {
+    background-color: darkred;
+    color: white;
+}
+li a.active {
+    background-color: grey;
+    color: white;
+}
+.text-area {
+    margin-left: 25%;
+    padding: 1px 16px;
+    height: 1000px;
+}
+
+/* HORIZONTAL NAVBAR */
+.horizontal {
+    display: inline;
+    margin: 0;
+    padding: 0 ;
+    overflow: hidden;
+    list-style-type: none;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: darkorchid;
+}
+.horizontal li {
+    float: left;
+}
+.horizontal li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.horizontal li a:hover:not(.active) {
+    background-color: blue;
+}
+.horizontal li a.active {
+    background-color: black;
+    color: white;
+}
+.text-area2 {
+    margin-top: 100px;
+}

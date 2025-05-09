@@ -1,0 +1,62 @@
+/* ANCHOR PSEUDO-CLASSES */
+
+/* unvisited link */
+a:link {
+    color: purple;
+}
+
+/* VISITED LINK */
+a:visited {
+    color: blue;
+}
+/* mouse over link  */
+a:hover {
+    color: blueviolet;
+}
+/* selected link */
+a:active {
+    color: cornflowerblue;
+}
+button {
+    background-color: brown;
+}
+
+/* FIRST-CHILD PSEUDO-CLASS */
+p.highlight-text {
+    color:black;
+}
+p.highlight-text:hover  {
+    color: darkgreen;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+p:first-child {
+    color: red;
+}
+
+/* LANG PSEUDO-CLASS */
+p:lang(swahili) {
+    border: 10px double plum;
+}
+strong:lang(French) {
+    border: 5px solid blueviolet;
+}
+strong:hover {
+    font-size: 25px;
+    color: brown;
+}
+
+/* FIRST-LINE PSEUDO-ELEMENT */
+p.paragraph::first-line {
+    font-size: 25px;
+}
+p.large::first-letter {
+    font-size: 50px;
+}
+/* SELECTION PSEUDO-ELEMENT */
+::selection {color: blueviolet;
+background-color: brown;}
+
+/* MARKER PSEUDO-ELEMENT */
+ul li::marker{content: "😊";  color: chocolate;
+font-size: 25px}

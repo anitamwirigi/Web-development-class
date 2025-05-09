@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Css Selectors</title>
+  </head>
+  <body>
+    <div>
+      <h1 id="counter">0</h1>
+      <button id="incrementBtn">Click Me</button>
+
+      <script>
+        const counter = document.getElementById("counter");
+        const button = document.getElementById("incrementBtn");
+
+        button.addEventListener("click", function () {
+          let count = parseInt(counter.textContent);
+          counter.textContent = count + 1;
+        });
+      </script>
+    </div>
+    <div>
+      <p style="letter-spacing: 15px">
+        This text is having space between letters.
+      </p>
+    </div>
+    <div>
+      <p style="word-spacing: 5px">This text is having space between words.</p>
+      <p style="text-transform: capitalize">This will be capitalized</p>
+      <p style="text-transform: uppercase">This will be in uppercase</p>
+      <p style="text-transform: lowercase">This will be in lowercase</p>
+    </div>
+    <div>
+      <p style="text-indent: 10cm">
+        This text will have first line indented by 1cm and this line will remain
+        at its actual position this is done by CSS text-indent property.
+      </p>
+      <p style="text-align: right">This will be right aligned.</p>
+      <p style="text-align: center">This will be center aligned.</p>
+      <p style="text-align: left">This will be left aligned.</p>
+    </div>
+    <div>
+      <p style="text-decoration: underline">This will be underlined</p>
+      <p style="text-decoration: line-through">This will be striked through.</p>
+      <p style="text-decoration: overline">This will have a over line.</p>
+      <p style="text-decoration: blink">This text will have blinking effect</p>
+
+      <p style="font-stretch: ultra-expanded">
+        If this doesn't appear to work, it is likely that your computer doesn't
+        have a condensed or expanded version of the font being used.
+      </p>
+    </div>
+    <br />
+    <br />
+    <div>
+      <ul style="list-style-type: circle; list-stlyeposition: outside">
+        <li>Maths</li>
+        <li>Social Science</li>
+        <li>Physics</li>
+      </ul>
+      <ul style="list-style-type: square; list-styleposition: inside">
+        <li>Maths</li>
+        <li>Social Science</li>
+        <li>Physics</li>
+      </ul>
+      <ol style="list-style-type: decimal; list-stlyeposition: outside">
+        <li>Maths</li>
+        <li>Social Science</li>
+        <li>Physics</li>
+      </ol>
+      <ol style="list-style-type: lower-alpha; list-style-position: inside">
+        <li>Maths</li>
+        <li>Social Science</li>
+        <li>Physics</li>
+      </ol>
+    </div>
+    <br />
+    <br />
+    <!-- Collapse Border Example -->
+    <div>
+      <table class="one">
+        <caption>
+          Collapse Border Example
+        </caption>
+        <tr>
+          <td class="a">Cell A Collapse Example</td>
+        </tr>
+        <tr>
+          <td class="b">Cell B Collapse Example</td>
+        </tr>
+      </table>
+
+      <br />
+      <!-- Separate Border Example -->
+      <table class="two">
+        <caption>
+          Separate Border Example
+        </caption>
+        <tr>
+          <td class="a">Cell A Separate Example</td>
+        </tr>
+        <tr>
+          <td class="b">Cell B Separate Example</td>
+        </tr>
+      </table>
+    </div>
+
+    <br />
+    <br />
+    <div>
+      <!-- Separate Border Example with border-spacing -->
+      <table class="one" border="1">
+        <caption>
+          Separate Border Example with border-spacing
+        </caption>
+        <tr>
+          <td>Cell A Collapse Example</td>
+        </tr>
+        <tr>
+          <td>Cell B Collapse Example</td>
+        </tr>
+      </table>
+      <br />
+
+      <table class="two" border="1">
+        <caption>
+          Separate Border Example with border-spacing
+        </caption>
+        <tr>
+          <td>Cell A Separate Example</td>
+        </tr>
+        <tr>
+          <td>Cell B Separate Example</td>
+        </tr>
+      </table>
+    </div>
+
+    <!-- The empty-cells Property -->
+    <div>
+      <table class="empty">
+        <tr>
+          <th></th>
+          <th>Title one</th>
+          <th>Title two</th>
+        </tr>
+        <tr>
+          <th>Row Title</th>
+          <td class="empty">value</td>
+          <td class="empty">value</td>
+        </tr>
+        <tr>
+          <th>Row Title</th>
+          <td class="empty">value</td>
+          <td class="empty">value</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>

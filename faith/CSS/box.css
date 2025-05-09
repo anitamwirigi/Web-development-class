@@ -1,0 +1,53 @@
+div.text-1 {
+    height: 500px;
+    width: 200px;
+    margin-bottom: 590px;
+}
+div.text-2 {
+    min-width: 200px;
+    max-width: 800px;
+    min-height: 200px;
+    max-height: 300px
+}
+div.text-3 {
+    margin-bottom:25px;
+    margin-left: 50px;
+}
+div.text-4 {
+    border: 5px dotted blueviolet;
+    padding: 15px 45px 15px 40px;
+    box-shadow: 20px 10px 35px ;
+    margin-bottom: 40px;
+}
+
+/* box card */
+div.box {
+    padding-left: 80px;
+    margin-bottom: 50px;
+}
+div.card {
+    width: 300px;
+    box-shadow: 0 5px 0 lime, 0 8px 20px 0 black;
+    text-align: center;
+}
+div.header {
+    background-color: blue;
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+}
+div.container {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+}
+
+/* box image card */
+div.image {
+    width: 300px;
+    box-shadow: 0 5px 0 purple, 0 8px 20px 0 black;
+    text-align: center;
+}
+div.image-box {
+    padding-top: 20px;
+}

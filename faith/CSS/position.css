@@ -1,0 +1,79 @@
+.img-float {
+    float: left;
+    height: 200px;
+    width: 200px;
+    margin-right: 20px;
+}
+
+/* CLEAR PROPERTY */
+.float-box {
+    float: left;
+    height: 130px;
+    width: 200px;
+    background-color: brown;
+}
+.clear-box {
+    float: left;
+    height: 200px;
+    width: 200px;
+    background-color: blueviolet;
+}
+.clear-text {
+    clear: left;
+}
+
+.left-box {
+    float: left;
+    height: 200px;
+    width: 200px;background-color: cornflowerblue;
+}
+
+.right-box {
+    float: right;
+    height: 200px;
+    width: 200px;
+    background-color: cyan;
+}
+.clearfix {
+    overflow: auto;
+    margin-left: 20px;
+    margin-bottom: 80px;
+}
+
+/* THE DISPLAY PROPERTY */
+.box-1 {
+    display: inline;
+    background-color: chocolate;
+}
+.box-2 {
+    display: inline;
+    background-color: turquoise;
+}
+
+.box-3 {
+    display: inline-block;
+    height: 100px;
+    width: 150px;
+    background-color: darkturquoise;
+}
+.box-4 {
+    display: inline-block;
+    height: 100px;
+    width: 150px;
+    background-color:blue;
+}
+
+.box-5 {
+    display: block;
+    height: 120px;
+    width: 300px;
+    padding: 20px;
+    background-color: brown;
+}
+.box-6 {
+    display: block;
+    height: 120px;
+    width: 300px;
+    padding: 20px;
+    background-color: darksalmon;
+}
